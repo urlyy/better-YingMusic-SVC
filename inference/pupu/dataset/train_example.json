@@ -1,0 +1,15 @@
+{
+"datasets":[
+    {
+        "name": "VCTK",
+        "path": "{PATH_TO_DATASET}/VCTK-Corpus-0.92/wav48_silence_trimmed"
+    },
+    {
+        "name": "opencpop",
+        "path": "{PATH_TO_DATASET}/Opencpop"
+    }
+],
+
+"filelist_path": "dataset/filelist"
+
+}

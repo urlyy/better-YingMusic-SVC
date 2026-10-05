@@ -1,0 +1,11 @@
+{
+"datasets":[
+    {
+        "name": "golden_samples",
+        "path": "samples"
+    }
+],
+
+"filelist_path": "dataset/filelist"
+
+}

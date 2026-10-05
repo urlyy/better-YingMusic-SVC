@@ -1,0 +1,31 @@
+{
+  "base_config": "egs/exp_config_pupucodec_large_base.json",
+  "model_type": "PupuCodec",
+  "model": {
+    "generator": "pupucodec",
+    "pupucodec": {
+      "encoder_dim": 48,
+      "encoder_rates": [2, 2, 2, 8, 8],
+      "decoder_dim": 1536,
+      "decoder_rates": [8, 8, 2, 2, 2],
+      "n_codebooks": 9,
+      "codebook_size": 1024,
+      "codebook_dim": 8,
+      "quantizer_dropout": 0.5,
+    },
+  },
+  "train": {
+    "criterions": [
+        "feature",
+        "discriminator",
+        "generator",
+        "multimel",
+        "codebook",
+        "commitment",
+    ]
+  },
+  "inference": {
+    "batch_size": 1,
+    "n_quantizers": 9,
+  }
+}

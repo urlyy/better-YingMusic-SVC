@@ -1,0 +1,53 @@
+# Python environments and local caches
+/.runtime/
+/.venv/
+/venv/
+/.cache/
+/.clone-check/
+
+# Model downloads and runtime data
+/models/
+/data/
+/logs/
+/outputs/
+/audio/
+
+# Python and development artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Model binaries and archives
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Audio
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.aif
+*.aiff
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,20 @@
+# Versions verified with the bundled Python 3.12 runtime.
+# CUDA PyTorch is installed separately from its official wheel index.
+librosa==0.11.0
+numpy==2.4.6
+scipy==1.17.1
+soundfile==0.13.1
+transformers==5.5.4
+huggingface-hub==1.11.0
+einops==0.8.2
+munch==4.0.0
+beartype==0.22.9
+rotary-embedding-torch==0.8.9
+ml-collections==1.1.0
+loralib==0.1.2
+julius==0.2.8
+safetensors==0.8.0
+tqdm==4.67.3
+pyyaml==6.0.3
+matplotlib==3.10.8
+descript-audio-codec==1.0.0

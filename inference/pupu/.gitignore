@@ -1,0 +1,31 @@
+# Mac OS files
+.DS_Store
+
+# IDEs
+.idea
+.vs
+.vscode
+.cache
+pyrightconfig.json
+
+# GitHub files
+.github
+
+# Byte-compiled / optimized / DLL / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.temp
+*.c
+*.so
+*.o
+
+# Data and ckpt
+*.pkl
+*.pt
+*.npy
+*.npz
+*.tar.gz
+*.ckpt
+experiments/*

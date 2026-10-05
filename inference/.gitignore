@@ -1,0 +1,6 @@
+checkpoints/
+pretrain/rmvpe/
+pretrain/vocoder/pc_nsf_hifigan_44.1k_hop512_128bin_2025.02/
+*.pyc
+TODO.md
+utils/ms_repo.py
